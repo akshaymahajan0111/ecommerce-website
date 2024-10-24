@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, incrementAsync, selectCount } from "./productListSlice";
+import { increment, incrementAsync, selectCount } from "../productListSlice";
 
 import {
   Dialog,
