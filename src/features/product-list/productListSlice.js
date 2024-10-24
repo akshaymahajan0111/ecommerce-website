@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fetchCount } from './counterAPI';
+import productListAPI from './productListAPI';
 
 const initialState = {
   value: 0,
@@ -7,9 +7,9 @@ const initialState = {
 };
 
 export const incrementAsync = createAsyncThunk(
-  'counter/fetchCount',
+  'product-list/productListAPI',
   async (amount) => {
-    const response = await fetchCount(amount);
+    const response = await productListAPI(amount);
     // The value we return becomes the `fulfilled` action payload
     return response.data;
   }
