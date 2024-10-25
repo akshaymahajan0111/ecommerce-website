@@ -5336,5 +5336,131 @@
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
     }
+  ],
+  "brands": [
+    { "value": { "value": "Essence" }, "label": "Essence", "checkbox": false },
+    {
+      "value": { "value": "Glamour Beauty" },
+      "label": "Glamour Beauty",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Velvet Touch" },
+      "label": "Velvet Touch",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Chic Cosmetics" },
+      "label": "Chic Cosmetics",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Nail Couture" },
+      "label": "Nail Couture",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Calvin Klein" },
+      "label": "Calvin Klein",
+      "checkbox": false
+    },
+    { "value": { "value": "Chanel" }, "label": "Chanel", "checkbox": false },
+    { "value": { "value": "Dior" }, "label": "Dior", "checkbox": false },
+    {
+      "value": { "value": "Dolce & Gabbana" },
+      "label": "Dolce & Gabbana",
+      "checkbox": false
+    },
+    { "value": { "value": "Gucci" }, "label": "Gucci", "checkbox": false },
+    {
+      "value": { "value": "Annibale Colombo" },
+      "label": "Annibale Colombo",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Furniture Co." },
+      "label": "Furniture Co.",
+      "checkbox": false
+    },
+    { "value": { "value": "Knoll" }, "label": "Knoll", "checkbox": false },
+    {
+      "value": { "value": "Bath Trends" },
+      "label": "Bath Trends",
+      "checkbox": false
+    },
+    { "value": { "value": "Apple" }, "label": "Apple", "checkbox": false },
+    { "value": { "value": "Asus" }, "label": "Asus", "checkbox": false },
+    { "value": { "value": "Huawei" }, "label": "Huawei", "checkbox": false },
+    { "value": { "value": "Lenovo" }, "label": "Lenovo", "checkbox": false },
+    { "value": { "value": "Dell" }, "label": "Dell", "checkbox": false },
+    {
+      "value": { "value": "Fashion Trends" },
+      "label": "Fashion Trends",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Gigabyte" },
+      "label": "Gigabyte",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Classic Wear" },
+      "label": "Classic Wear",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Casual Comfort" },
+      "label": "Casual Comfort",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Urban Chic" },
+      "label": "Urban Chic",
+      "checkbox": false
+    },
+    { "value": { "value": "Nike" }, "label": "Nike", "checkbox": false },
+    { "value": { "value": "Puma" }, "label": "Puma", "checkbox": false },
+    {
+      "value": { "value": "Off White" },
+      "label": "Off White",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Fashion Timepieces" },
+      "label": "Fashion Timepieces",
+      "checkbox": false
+    },
+    {
+      "value": { "value": "Longines" },
+      "label": "Longines",
+      "checkbox": false
+    },
+    { "value": { "value": "Rolex" }, "label": "Rolex", "checkbox": false },
+    { "value": { "value": "Amazon" }, "label": "Amazon", "checkbox": false }
+  ],
+  "categories": [
+    { "value": "beauty", "label": "beauty", "checkbox": false },
+    { "value": "fragrances", "label": "fragrances", "checkbox": false },
+    { "value": "furniture", "label": "furniture", "checkbox": false },
+    { "value": "groceries", "label": "groceries", "checkbox": false },
+    {
+      "value": "home-decoration",
+      "label": "home decoration",
+      "checkbox": false
+    },
+    {
+      "value": "kitchen-accessories",
+      "label": "kitchen accessories",
+      "checkbox": false
+    },
+    { "value": "laptops", "label": "laptops", "checkbox": false },
+    { "value": "mens-shirts", "label": "mens shirts", "checkbox": false },
+    { "value": "mens-shoes", "label": "mens shoes", "checkbox": false },
+    { "value": "mens-watches", "label": "mens watches", "checkbox": false },
+    {
+      "value": "mobile-accessories",
+      "label": "mobile accessories",
+      "checkbox": false
+    }
   ]
 }
