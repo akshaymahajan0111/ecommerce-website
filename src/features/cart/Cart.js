@@ -39,7 +39,7 @@ const products = [
 ];
 export default function Cart() {
   const [open, setOpen] = useState(true);
-  const count = useSelector(selectCount);
+  // const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
   return (
@@ -111,7 +111,8 @@ export default function Cart() {
           Shipping and taxes calculated at checkout.
         </p>
         <div className="mt-6">
-          <Link to="/checkout"
+          <Link
+            to="/checkout"
             className="flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
           >
             Checkout
