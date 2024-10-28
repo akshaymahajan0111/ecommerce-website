@@ -44,5 +44,6 @@ export const counterSlice = createSlice({
 // the state. Selectors can also be defined inline where they're used instead of
 // in the slice file. For example: `useSelector((state: RootState) => state.counter.value)`
 // export const selectCount = (state) => state.counter.value;
+export const selectItems = (state) => state.cart.items;
 
 export default counterSlice.reducer;
