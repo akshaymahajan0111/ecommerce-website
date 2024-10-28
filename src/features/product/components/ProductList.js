@@ -44,30 +44,6 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const items = [
-  {
-    id: 1,
-    title: "Back End Developer",
-    department: "Engineering",
-    type: "Full-time",
-    location: "Remote",
-  },
-  {
-    id: 2,
-    title: "Front End Developer",
-    department: "Engineering",
-    type: "Full-time",
-    location: "Remote",
-  },
-  {
-    id: 3,
-    title: "User Interface Designer",
-    department: "Design",
-    type: "Full-time",
-    location: "Remote",
-  },
-];
-
 export default function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
@@ -113,12 +89,10 @@ export default function ProductList() {
 
   const handleSort = (e, option) => {
     const sort = { _sort: option.sort, _order: option.order };
-    console.log({ sort });
     setSort(sort);
   };
 
   const handlePagination = (page) => {
-    console.log({ page });
     setPage(page);
   };
 
