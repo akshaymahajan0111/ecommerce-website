@@ -37,6 +37,7 @@ function Signup() {
                 createUserAsync({
                   email: formData.email,
                   password: formData.password,
+                  addresses: [],
                 })
               );
               console.log({ formData });
