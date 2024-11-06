@@ -6357,16 +6357,6 @@
           "city": "JALGAON",
           "region": "MAHARASHTRA",
           "pinCode": "412101"
-        },
-        {
-          "name": "Akshay",
-          "email": "akshaymahajan0111@gmail.com",
-          "phone": "+919579594097",
-          "country": "India",
-          "street": "Bhoomi Orabelle Street, C 402",
-          "city": "Ravet",
-          "region": "Maharashtra",
-          "pinCode": "412101"
         }
       ],
       "password": "Test@123"
@@ -6436,68 +6426,6 @@
       "user": "1a52"
     },
     {
-      "id": "0e47",
-      "title": "Red Nail Polish",
-      "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
-      "category": "beauty",
-      "price": 8.99,
-      "discountPercentage": 2.46,
-      "rating": 3.91,
-      "stock": 71,
-      "tags": [
-        "beauty",
-        "nail polish"
-      ],
-      "brand": "Nail Couture",
-      "sku": "YUIIIP4W",
-      "weight": 9,
-      "dimensions": {
-        "width": 8.11,
-        "height": 10.89,
-        "depth": 29.06
-      },
-      "warrantyInformation": "1 year warranty",
-      "shippingInformation": "Ships in 1 week",
-      "availabilityStatus": "In Stock",
-      "reviews": [
-        {
-          "rating": 5,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Leo Rivera",
-          "reviewerEmail": "leo.rivera@x.dummyjson.com"
-        },
-        {
-          "rating": 5,
-          "comment": "Great product!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Evan Reed",
-          "reviewerEmail": "evan.reed@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Highly recommended!",
-          "date": "2024-05-23T08:56:21.619Z",
-          "reviewerName": "Evelyn Sanchez",
-          "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
-        }
-      ],
-      "returnPolicy": "No return policy",
-      "minimumOrderQuantity": 46,
-      "meta": {
-        "createdAt": "2024-05-23T08:56:21.619Z",
-        "updatedAt": "2024-05-23T08:56:21.619Z",
-        "barcode": "3212847902461",
-        "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-      },
-      "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"
-      ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png",
-      "quantity": 4,
-      "user": "2d0d"
-    },
-    {
       "id": "078c",
       "title": "Gucci Bloom Eau de",
       "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
@@ -6564,7 +6492,7 @@
   ],
   "orders": [
     {
-      "id": "ba3e",
+      "id": "ca7d",
       "user": {
         "id": "2d0d",
         "email": "test@gmail.com",
@@ -6666,10 +6594,138 @@
           "user": "2d0d"
         }
       ],
-      "selectedAddress": null,
+      "selectedAddress": {
+        "name": "Akshay",
+        "email": "akshaymahajan0111@gmail.com",
+        "phone": "+919579594097",
+        "country": "India",
+        "street": "Bhoomi Orabelle Street, C 402",
+        "city": "Ravet",
+        "region": "Maharashtra",
+        "pinCode": "412101"
+      },
       "totalAmount": 35.96,
       "totalItems": 4,
-      "paymentMethod": "cash"
+      "paymentMethod": "card",
+      "status": "pending"
+    },
+    {
+      "id": "7343",
+      "user": {
+        "id": "2d0d",
+        "email": "test@gmail.com",
+        "addresses": [
+          {
+            "name": "Test User",
+            "email": "test@gmail.com",
+            "phone": "9876543210",
+            "country": "India",
+            "street": "test street",
+            "city": "Pune",
+            "region": "Maharashtra",
+            "pinCode": "422222"
+          },
+          {
+            "name": "Akshay",
+            "email": "akshaymahajan0111@gmail.com",
+            "phone": "+919579594097",
+            "country": "India",
+            "street": "132KV Substation, Utkheda road,Raver, India",
+            "city": "JALGAON",
+            "region": "MAHARASHTRA",
+            "pinCode": "412101"
+          },
+          {
+            "name": "Akshay",
+            "email": "akshaymahajan0111@gmail.com",
+            "phone": "+919579594097",
+            "country": "India",
+            "street": "Bhoomi Orabelle Street, C 402",
+            "city": "Ravet",
+            "region": "Maharashtra",
+            "pinCode": "412101"
+          }
+        ],
+        "password": "Test@123"
+      },
+      "items": [
+        {
+          "id": "ea14",
+          "title": "Red Lipstick",
+          "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+          "category": "beauty",
+          "price": 12.99,
+          "discountPercentage": 19.03,
+          "rating": 2.51,
+          "stock": 68,
+          "tags": [
+            "beauty",
+            "lipstick"
+          ],
+          "brand": "Chic Cosmetics",
+          "sku": "O5IF1NTA",
+          "weight": 5,
+          "dimensions": {
+            "width": 14.37,
+            "height": 13.94,
+            "depth": 14.6
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Great product!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Leo Rivera",
+              "reviewerEmail": "leo.rivera@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Oscar Powers",
+              "reviewerEmail": "oscar.powers@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Carter Rivera",
+              "reviewerEmail": "carter.rivera@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 6,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "9444582199406",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+          "quantity": 1,
+          "user": "2d0d"
+        }
+      ],
+      "selectedAddress": {
+        "name": "Akshay",
+        "email": "akshaymahajan0111@gmail.com",
+        "phone": "+919579594097",
+        "country": "India",
+        "street": "Bhoomi Orabelle Street, C 402",
+        "city": "Ravet",
+        "region": "Maharashtra",
+        "pinCode": "412101"
+      },
+      "totalAmount": 12.99,
+      "totalItems": 1,
+      "paymentMethod": "cash",
+      "status": "pending"
     }
   ]
 }

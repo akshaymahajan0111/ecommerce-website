@@ -4,10 +4,11 @@ import { createOrder } from "./orderAPI";
 const initialState = {
   orders: [],
   status: "idle",
+  currentOrder: null,
 };
 
 export const createOrderAsync = createAsyncThunk(
-  "cart/createOrder",
+  "order/createOrder",
   async (orders) => {
     const response = await createOrder(orders);
     return response.data;
@@ -15,9 +16,13 @@ export const createOrderAsync = createAsyncThunk(
 );
 
 export const orderSlice = createSlice({
-  name: "cart",
+  name: "order",
   initialState,
-  reducers: {},
+  reducers: {
+    resetOrder: (state) => {
+      state.currentOrder = null;
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(createOrderAsync.pending, (state) => {
@@ -26,10 +31,12 @@ export const orderSlice = createSlice({
       .addCase(createOrderAsync.fulfilled, (state, action) => {
         state.status = "idle";
         state.orders.push(action.payload);
+        state.currentOrder = action.payload;
       });
   },
 });
 
-// export const selectItems = (state) => state.cart.items;
+export const { resetOrder } = orderSlice.actions;
+export const selectCurrentOrder = (state) => state.order.currentOrder;
 
 export default orderSlice.reducer;
