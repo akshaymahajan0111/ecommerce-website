@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
-  fetchAllBrandsAsync,
-  fetchAllCategoriesAsync,
+  fetchBrandsAsync,
+  fetchCategoriesAsync,
   fetchProductsByFiltersAsync,
   selectAllProducts,
   selectBrands,
-  selectCatagories,
+  selectCategories,
   selectTotalItems,
 } from "../productSlice";
 
@@ -49,7 +49,7 @@ export default function ProductList() {
   const products = useSelector(selectAllProducts);
   const totalItems = useSelector(selectTotalItems);
   const brands = useSelector(selectBrands);
-  const catagories = useSelector(selectCatagories);
+  const catagories = useSelector(selectCategories);
 
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [filter, setFilter] = useState({});
@@ -106,8 +106,8 @@ export default function ProductList() {
   }, [totalItems, sort]);
 
   useEffect(() => {
-    dispatch(fetchAllBrandsAsync());
-    dispatch(fetchAllCategoriesAsync());
+    dispatch(fetchBrandsAsync());
+    dispatch(fetchCategoriesAsync());
   }, []);
 
   return (
@@ -483,6 +483,11 @@ function ProductGrid({ products }) {
                         </p>
                       </div>
                     </div>
+                    {product.deleted && (
+                      <div>
+                        <p className="text-sm text-red-400">product deleted</p>
+                      </div>
+                    )}
                   </div>
                 </Link>
               ))}

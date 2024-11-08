@@ -38,6 +38,7 @@ function Signup() {
                   email: formData.email,
                   password: formData.password,
                   addresses: [],
+                  role: "user",
                 })
               );
               console.log({ formData });

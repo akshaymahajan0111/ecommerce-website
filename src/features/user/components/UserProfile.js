@@ -57,7 +57,10 @@ export default function UserProfile() {
             Name: {user.name ? user.name : "Akshay"}
           </h1>
           <h3 className="text-xl my-5 font-bold tracking-tight text-red-900">
-            email address : {user.email}
+            Email : {user.email}
+          </h3>
+          <h3 className="text-xl my-5 font-bold tracking-tight text-red-900">
+            Role : {user.role}
           </h3>
         </div>
 
